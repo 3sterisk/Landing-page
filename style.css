@@ -28,10 +28,19 @@ ul>li {
     flex-shrink: 0;
 }
 
+.main-container {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .top-header {
     background-color: #1f2937;
     height: 45vh;
+    display: flex;
+    justify-content: center;
 }
+
 
 img {
     height: 50px;
